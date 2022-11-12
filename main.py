@@ -3,10 +3,6 @@ from game import Game
 import math
 pygame.init()
 
-# def clock
-clock = pygame.time.Clock()
-FPS = 60
-
 # gen la fenêtre
 pygame.display.set_caption("Comet fall game")
 screen = pygame.display.set_mode((1000, 667))
@@ -63,4 +59,4 @@ while running:
                 # lancer le jeu
                 game.start()
     # fix fps sur clock
-    clock.tick(FPS)
+    pygame.time.Clock().tick(60)
