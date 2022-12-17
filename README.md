@@ -1,4 +1,4 @@
-# Tuto-PyGame
+# Learning SQL Database
 
 Here is the game following the following tuto:
 
